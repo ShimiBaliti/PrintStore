@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "storeDb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "print_store",
+    "password": "mysqladmin",
+    "name": "storeDb",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
