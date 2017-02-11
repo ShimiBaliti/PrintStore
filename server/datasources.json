@@ -12,5 +12,11 @@
     "name": "storeDb",
     "user": "root",
     "connector": "mysql"
+  },
+  "staticDb": {
+    "name": "staticDb",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/DB/storage"
   }
 }
