@@ -1,0 +1,47 @@
+CREATE TABLE IF NOT EXISTS Orders (
+  order_id INT NOT NULL AUTO_INCREMENT,
+  order_number INT NOT NULL,
+  publisher_id INT NOT NULL,
+  printer_id INT NOT NULL,
+  user_id INT NOT NULL,
+  shipping_address_id INT NOT NULL,
+  order_date DATE NOT NULL,
+  PRIMARY KEY (order_id)
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS Jobs (
+  job_id INT NOT NULL AUTO_INCREMENT,
+  job_number INT NOT NULL,
+  return_address VARCHAR(45) DEFAULT NULL,
+  shipping_price INT DEFAULT NULL,
+  shipping_type VARCHAR(45) DEFAULT NULL,
+  price INT DEFAULT NULL,
+  order_id INT DEFAULT NULL,
+  PRIMARY KEY (job_id)
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS Users (
+  user_id INT NOT NULL AUTO_INCREMENT,
+  user_number INT NOT NULL,
+  full_name VARCHAR(45) DEFAULT NULL,
+  email VARCHAR(45) DEFAULT NULL,
+  PRIMARY KEY (user_id)
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS Addresses (
+  address_id INT NOT NULL AUTO_INCREMENT,
+  full_name VARCHAR(45) DEFAULT NULL,
+  address_line_1 VARCHAR(45) NOT NULL,
+  address_line_2 VARCHAR(45) DEFAULT NULL,
+  city VARCHAR(45) NOT NULL,
+  country VARCHAR(45) NOT NULL,
+  postcode VARCHAR(45) NOT NULL,
+  state VARCHAR(45) NOT NULL,
+  PRIMARY KEY (address_id)
+) ENGINE=InnoDB;
+
+/*CREATE TABLE IF NOT EXISTS Publishers (
+  publisher_id INT NOT NULL AUTO_INCREMENT,
+  ??
+  PRIMARY KEY (publisher_id)
+) ENGINE=InnoDB*/
