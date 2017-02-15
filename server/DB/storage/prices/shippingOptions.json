@@ -1,0 +1,72 @@
+[
+    {
+        "pids": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "shippingGroups": {
+            "Americas": {
+                "id": 1,
+                "destination": "United States,Canada",
+                "options": [
+                    {
+                        "id": "americasStandard",
+                        "type": "Standard",
+                        "description": "",
+                        "price": 3.99,
+                        "deliverInDays": "8-12"
+                    },
+                    {
+                        "id": "americasExpress",
+                        "type": "Express",
+                        "description": "",
+                        "price": 7.99,
+                        "deliverInDays": "3-5"
+                    }
+                ]
+            },
+            "Europe": {
+                "id": 2,
+                "destination": "West Europe & UK",
+                "options": [
+                    {
+                        "id": "westEuropeStandard",
+                        "type": "Standard",
+                        "description": "",
+                        "price": 5.99,
+                        "deliverInDays": "8-12"
+                    },
+                    {
+                        "id": "westEuropeExpress",
+                        "type": "Express",
+                        "description": "",
+                        "price": 12.99,
+                        "deliverInDays": "3-5"
+                    }
+                ]
+            },
+            "Asia": {
+                "id": 3,
+                "destination": "Asia",
+                "options": [
+                    {
+                        "id": "asiaStandard",
+                        "type": "Standard",
+                        "description": "",
+                        "price": 15.99,
+                        "deliverInDays": "8-12"
+                    },
+                    {
+                        "id": "asiaExpress",
+                        "type": "Express",
+                        "description": "",
+                        "price": 22.99,
+                        "deliverInDays": "3-5"
+                    }
+                ]
+            }
+        }
+    }
+]

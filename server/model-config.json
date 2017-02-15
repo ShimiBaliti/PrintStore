@@ -35,5 +35,13 @@
   "Container": {
     "dataSource": "staticDb",
     "public": true
+  },
+  "Product": {
+    "dataSource": null,
+    "public": true
+  },
+  "Shipping": {
+    "dataSource": null,
+    "public": true
   }
 }

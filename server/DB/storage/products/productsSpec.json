@@ -1,0 +1,60 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Greeting Card 5x7",
+            "desc": "High quality Greeting Card 5\"x7\"",
+            "lamination": [
+                "Matt",
+                "Gloss"
+            ],
+            "backColors": [
+                "red",
+                "blue",
+                "green"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Greeting Card 7x5",
+            "desc": "High quality Greeting Card 7\"x5\"",
+            "lamination": [
+                "Matt",
+                "Gloss"
+            ],
+            "backColors": [
+                "red",
+                "blue",
+                "green"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Greeting Card 3.5x5",
+            "desc": "High quality Greeting Card 3.5\"x5\"",
+            "lamination": [
+                "Matt",
+                "Gloss"
+            ],
+            "backColors": [
+                "red",
+                "blue",
+                "green"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Greeting Card 5x3.5",
+            "desc": "High quality Greeting Card 5\"x3.5\"",
+            "lamination": [
+                "Matt",
+                "Gloss"
+            ],
+            "backColors": [
+                "red",
+                "blue",
+                "green"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Shipping",
+  "base": "Model",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
